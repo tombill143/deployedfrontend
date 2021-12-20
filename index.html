@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Candidate Election Home Page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <h1>København's 2021 Local Election Candidates Page</h1>
+		<style>
+			body {text-align: center}
+			body {font-family: Rockwell; margin:0}
+		</style>
+		<hr>			
+				
+        <h2>Candidate Information</h2>
+        <h1> Please Choose a Party </h1>
+                    <label>Pick a Party</label>
+                    <select id= "movie"> 
+                        <option value="1"> The Conservative Peoples Party </option>
+                        <option value="2"> Danish People's Party </option>
+                        <option value="3"> Venstre, Danmarks Liberale Party  </option>
+                        <option value="4"> SF- Socialist People's Party </option>
+                        <option value="5"> The Social Democrats </option>
+                        <option value="6"> The Unity List - The Red-Greens</option>
+                    </select>
+                </div>
+
+                <p>Now please type in the fields below the name of the candidate.</p>
+
+        <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+
+        <button onclick="window.location.href='../candidateSelector/candidate.html'">Submit</button>
+        
+        </form> 
+
+        <p>If you click the "Submit" button, the name will be added to the backend database.</p>
+        
+        
+        </form>
+        </html>
